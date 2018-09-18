@@ -18,9 +18,9 @@ package org.outerj.daisy.diff.html;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.eclipse.compare.internal.LCSSettings;
-import org.eclipse.compare.rangedifferencer.RangeDifference;
-import org.eclipse.compare.rangedifferencer.RangeDifferencer;
+import org.eclipse.compare.daisydiff.internal.LCSSettings;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifference;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifferencer;
 import org.outerj.daisy.diff.html.modification.ModificationType;
 import org.outerj.daisy.diff.output.DiffOutput;
 import org.outerj.daisy.diff.output.Differ;
@@ -46,7 +46,7 @@ public class HTMLDiffer implements Differ{
         settings.setUseGreedyMethod(false);
         // settings.setPowLimit(1.5);
         // settings.setTooLong(100000*100000);
-    	org.eclipse.compare.rangedifferencer.RangeDifference[] differences = RangeDifferencer.findDifferences(settings, ancestorComparator, leftComparator, rightComparator);
+    	RangeDifference[] differences = RangeDifferencer.findDifferences(settings, ancestorComparator, leftComparator, rightComparator);
     	
     	List<RangeDifference> pdifferences = preProcess(differences);
     	

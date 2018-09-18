@@ -8,13 +8,13 @@
  * Contributors:
  *     IBM Corporation - initial API and implementation
  *******************************************************************************/
-package org.eclipse.compare.rangedifferencer;
+package org.eclipse.compare.daisydiff.rangedifferencer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.eclipse.compare.internal.CompareMessages;
-import org.eclipse.compare.internal.LCSSettings;
+import org.eclipse.compare.daisydiff.internal.CompareMessages;
+import org.eclipse.compare.daisydiff.internal.LCSSettings;
 import org.eclipse.core.runtime.Assert;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.SubMonitor;

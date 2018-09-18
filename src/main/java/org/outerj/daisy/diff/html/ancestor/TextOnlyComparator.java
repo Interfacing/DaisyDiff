@@ -18,10 +18,10 @@ package org.outerj.daisy.diff.html.ancestor;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.eclipse.compare.internal.LCSSettings;
-import org.eclipse.compare.rangedifferencer.IRangeComparator;
-import org.eclipse.compare.rangedifferencer.RangeDifference;
-import org.eclipse.compare.rangedifferencer.RangeDifferencer;
+import org.eclipse.compare.daisydiff.internal.LCSSettings;
+import org.eclipse.compare.daisydiff.rangedifferencer.IRangeComparator;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifference;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifferencer;
 import org.outerj.daisy.diff.html.dom.Node;
 import org.outerj.daisy.diff.html.dom.TagNode;
 import org.outerj.daisy.diff.html.dom.TextNode;

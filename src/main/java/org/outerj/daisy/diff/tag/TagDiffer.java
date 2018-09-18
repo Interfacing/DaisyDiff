@@ -18,8 +18,8 @@ package org.outerj.daisy.diff.tag;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.eclipse.compare.rangedifferencer.RangeDifference;
-import org.eclipse.compare.rangedifferencer.RangeDifferencer;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifference;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifferencer;
 import org.outerj.daisy.diff.output.TextDiffOutput;
 import org.outerj.daisy.diff.output.TextDiffer;
 

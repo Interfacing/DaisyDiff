@@ -18,9 +18,9 @@ package org.outerj.daisy.diff.html.ancestor;
 import java.util.List;
 import java.util.Locale;
 
-import org.eclipse.compare.rangedifferencer.IRangeComparator;
-import org.eclipse.compare.rangedifferencer.RangeDifference;
-import org.eclipse.compare.rangedifferencer.RangeDifferencer;
+import org.eclipse.compare.daisydiff.rangedifferencer.IRangeComparator;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifference;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifferencer;
 import org.outerj.daisy.diff.html.dom.TagNode;
 
 /**

@@ -21,7 +21,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 
-import org.eclipse.compare.rangedifferencer.IRangeComparator;
+import org.eclipse.compare.daisydiff.rangedifferencer.IRangeComparator;
 import org.outerj.daisy.diff.html.ancestor.AncestorComparator;
 import org.outerj.daisy.diff.html.ancestor.AncestorComparatorResult;
 import org.outerj.daisy.diff.html.dom.BodyNode;

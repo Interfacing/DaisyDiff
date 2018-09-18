@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import org.eclipse.compare.rangedifferencer.RangeDifference;
+import org.eclipse.compare.daisydiff.rangedifferencer.RangeDifference;
 import org.outerj.daisy.diff.html.ancestor.tagtostring.TagToString;
 import org.outerj.daisy.diff.html.ancestor.tagtostring.TagToStringFactory;
 import org.outerj.daisy.diff.html.dom.TagNode;
